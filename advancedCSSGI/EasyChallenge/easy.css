@@ -1,0 +1,29 @@
+table {
+    height: 450px;
+    width: 800px;
+    z-index: -1;
+}
+
+table, td{
+    border: solid;
+    border-width: 3px;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+img{
+    height: 242px;
+    width: 350px;
+    margin-bottom: -248px;
+    border: solid;
+    border: 3px;
+    border-color: black;
+
+}

@@ -1,0 +1,25 @@
+.checkerboard {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(8, 70px);
+    grid-template-rows: repeat(8, 70px);
+    background-color: #333;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.black{
+    background-color: rgb(7, 21, 127);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.white {
+    background-color: rgb(124, 9, 9);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+ 
